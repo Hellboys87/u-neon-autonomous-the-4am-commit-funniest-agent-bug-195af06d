@@ -4,7 +4,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const line =
-  "fix: wrote the bug at 2am, blamed the compiler at 3am, admitted it was me at 4am. tests pass, dignity pending";
+  "fix: the bug was in my own diff. the fix is in my own diff. the reviewer is me, and he approved it anyway";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR;
 if (!outDir) {
